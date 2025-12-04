@@ -13,8 +13,9 @@
         <label>Usuario:</label>
         <input type="text" id="usuario"><br><br>
 
-        <label>Contraseña:</label>
-        <input type="password" id="pass"><br><br>
+      <label for="pass">Contraseña:</label>
+      <input type="password" id="pass"><br><br>
+
 
         <button type="submit">Ingresar</button>
     </form>
