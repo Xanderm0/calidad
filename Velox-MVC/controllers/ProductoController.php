@@ -13,7 +13,8 @@ class ProductoController {
             $editProducto = Producto::find($_GET['edit']);
         }
 
-        require "views/productos.php";
+        require_once "views/productos.php";
+
     }
 
     public function store() {
